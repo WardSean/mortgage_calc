@@ -1,0 +1,23 @@
+body {
+    
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-title {
+    font-size: 1.5rem;
+    }
+    
+    .card-text {
+    margin-bottom: 1.5rem;
+    }
+    
+    /*This file contains the CSS styling for the website. It includes styling for the cards on the home page and some basic styling for the body of the website.*/
