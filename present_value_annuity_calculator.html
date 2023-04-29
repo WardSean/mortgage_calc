@@ -7,10 +7,11 @@
     <title>Present Value of Annuity Calculator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="present_value_annuity_calculator.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -38,7 +39,7 @@
     </nav>
     <div class="container">
         <h1>Present Value of Annuity Calculator</h1>
-        <form>
+        <form onsubmit="calculatePresentValue(); return false;">
             <div class="form-group">
                 <label for="paymentAmount">Payment Amount:</label>
                 <div class="input-group">
@@ -66,7 +67,6 @@
         </form>
         <div id="presentValueResult"></div>
     </div>
-    <script src="present_value_annuity_calculator.js"></script>
 </body>
 
 </html>
